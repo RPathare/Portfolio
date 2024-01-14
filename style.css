@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    color: white;
+}
+.header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+    z-index: 100;
+    background: transparent;
+}
+.logo{
+    position: relative;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+}
+.navbar a{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2rem;
+    transition: .3s;
+}
+.navbar a:hover{
+    color:#0ef;
+}
+.home{
+    position: relative;
+    justify-content: space-between;
+    background: rgb(35, 6, 35);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content{
+    font-size: 20px;
+}
+.home-icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid #0ef;
+    background: transparent;
+    border-radius: 20px;
+    color: #0ef;
+    height: 40px;
+    width:40px;
+    font-size: 20px;
+    margin: 30px 15px 30px 0px;
+}
+.home-icon a:hover{
+    background: #0ef;
+    color:#081b29;
+    box-shadow: 0 0 20px #0ef;
+    border: 2px solid black;
+}
+.btn-box{
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 12px 28px;
+    background-color: #0ef;
+    color: #081b29;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+}
